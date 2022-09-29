@@ -1,6 +1,26 @@
-# README - Basic Template
+# README - devChallenges.io Portfolio
 
-A basic folder structure for simple front-end projects, with minimal styling provided.
+<h1 align="center">devChallenges.io Portfolio</h1>
+
+<div align="center">
+   Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
+</div>
+
+<div align="center">
+  <h3>
+    <a href="https://.......">
+      Demo
+    </a>
+    <span> | </span>
+    <a href="https://github.com/je-jo/devchallenges-portfolio">
+      Solution
+    </a>
+    <span> | </span>
+    <a href="https://devchallenges.io/challenges/5ZnOYsSXM24JWnCsNFlt">
+      Challenge
+    </a>
+  </h3>
+</div>
 
 ## Table of contents
 
@@ -18,7 +38,18 @@ A basic folder structure for simple front-end projects, with minimal styling pro
 
 ### Description
 
-This is a a basic folder structure for simple front-end projects. Includes minimal styling for most used elements. Custom properties and general idea mostly taken from [Stephanie Eckless](https://moderncss.dev/).
+A final project for devChallenges.io. Not actual portfolio.
+
+This site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/5ZnOYsSXM24JWnCsNFlt) was to build an application to complete the given user stories:
+
+- [ ] User story: I can see personal details
+- [ ] User story: I can see skills
+- [ ] User story: I can see projects
+- [ ] User story: I can filter projects by tag
+- [ ] User story: I can see hobbies or certificates
+- [ ] User story (optional): I can see experiences
+- [ ] User story (optional): I can see blogs
+- [ ] User story (optional): I can see projects on different pages
 
 ### Screenshot
 
@@ -26,8 +57,8 @@ This is a a basic folder structure for simple front-end projects. Includes minim
 
 ### Links
 
-- [Repo](https://github.com/je-jo/basic-template)
-- [Live Site](https://je-jo.github.io/basic-template/)
+- [Repo](https://github.com/je-jo/devchallenges-portfolio)
+- [Live Site](https://........)
 
 ## My process
 
@@ -38,17 +69,16 @@ This is a a basic folder structure for simple front-end projects. Includes minim
 - CSS Grid
 - Flexbox
 - Mobile-first workflow
+- Javascript
 
 ### Observations
 
-This template should make building simple responsive pages quicker.
+...
 
 
 ### Useful resources
 
 - [HTML / Sass Jumpstart](https://github.com/5t3ph/html-sass-jumpstart) - Inspired by Stephanie Eckless' HTML / Sass Jumpstart, but much simpler;
-- [Solutions to Replace the 12-Column Grid](https://moderncss.dev/solutions-to-replace-the-12-column-grid/);
-- [Colors from Paraiso theme](https://github.com/idleberg/Paraiso-Color-Palettes);
 
 ## Author
 

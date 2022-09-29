@@ -96,7 +96,7 @@ header {
 }
 
 main {
-    width: min(100%, 90ch);
+    width: min(100%, 120ch);
     margin: 0 auto;
     padding: 5vh clamp(1rem, 5vw, 3rem) 1rem;
 }

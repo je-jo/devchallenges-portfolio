@@ -78,7 +78,8 @@ This site was created as a submission to a [DevChallenges](https://devchallenges
 
 ### Useful resources
 
-- [HTML / Sass Jumpstart](https://github.com/5t3ph/html-sass-jumpstart) - Inspired by Stephanie Eckless' HTML / Sass Jumpstart, but much simpler;
+- [My Basic Template](https://github.com/je-jo/basic-template) pretty much based on Stephanie Eckless' [HTML / Sass Jumpstart](https://github.com/5t3ph/html-sass-jumpstart) but much simpler;
+- [grid-column-end](https://css-tricks.com/almanac/properties/g/grid-column-end/) - css-tricks almanac, helped with grid items placement;
 
 ## Author
 

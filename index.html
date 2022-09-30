@@ -6,172 +6,220 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="assets/images/devchallenges.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css">
     <script src="assets/js/script.js" defer></script>
     <title>devChallenges Portfolio</title>
 </head>
 
 <body>
-    <header>
+    <header class="sr-only">
         <h1>devChallenges Portfolio</h1>
     </header>
 
     <main>
-        <section>
-            <h2>About</h2>
-            <div class="card">
-                <div class="card__image"><img src="assets/images/avatar.png" alt="a smiling avatar"></div>
+        <div class="grid grid--flexible">
+            <section class="grid__item grid__item--full">
+                <div class="card">
+                    <div class="card__image"><img src="assets/images/avatar.png"
+                            alt="a smiling avatar of a girl with pigtails and glasses, hypnotized" width="270px">
+                    </div>
+                    <div class="card__content">
+                        <h2>Jelena Jovičić</h2>
+                        <p>Front-End Developer</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi voluptas eveniet ipsam ut
+                            eligendi qui architecto possimus sint libero animi soluta quisquam error fugit saepe,
+                            voluptate
+                            facilis cupiditate tenetur rerum.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="grid__item grid__item--single">
+                <h2>Front End</h2>
+                <p>Most used languages across my repos:</p>
+                <ul>
+                    <li>HTML
+                        <div class="skill-bar">
+                            <span id="html"></span>
+                        </div>
+                    </li>
+                    <li>CSS
+                        <div class="skill-bar"><span id="css"></span></div>
+
+                    </li>
+                    <li>JavaScript
+                        <div class="skill-bar"><span id="javascript"></span></div>
+
+                    </li>
+                </ul>
+            </section>
+            <section class="grid__item grid__item--single">
+                <h2>Hobbies</h2>
+                <div class="grid">
+                    <div class="card">
+                        <div class="card__image"><img src="assets/images/avatar.png" alt=""></div>
+                        <div class="card__content">
+                            <h3>Cooking</h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card__image"><img src="assets/images/avatar.png" alt=""></div>
+                        <div class="card__content">
+                            <h3>Cooking</h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card__image"><img src="assets/images/avatar.png" alt=""></div>
+                        <div class="card__content">
+                            <h3>Cooking</h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="grid__item grid__item--double">
+                <h2>Blog</h2>
+                <div class="grid">
+                    <div class="card">
+                        <div class="card__image"><img src="assets/images/07-edie-homepage.png" alt=""></div>
+                        <div class="card__content">
+                            <h3>How to organize your CSS</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex quia, nostrum nisi
+                                aspernatur error ipsum recusandae culpa quaerat iure quo aliquid ullam dolor molestias!
+                                Amet voluptatibus expedita ipsa recusandae in.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At maxime quos excepturi!
+                                Dignissimos neque totam alias eum accusantium, quam esse eius in ipsa et animi vel
+                                beatae itaque! Qui, ducimus?</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="grid__item grid__item--double">
+                <h2>Experience</h2>
+                <div class="card card-nowrap">
+                    <div class="card__image"><img src="assets/images/avatar.png" alt=""></div>
+                    <div class="card__content">
+                        <h3>Front-end developer</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+                <div class="card card-nowrap">
+                    <div class="card__image"><img src="assets/images/avatar.png" alt=""></div>
+                    <div class="card__content">
+                        <h3>Full-stack developer</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+                <div class="card card-nowrap">
+                    <div class="card__image"><img src="assets/images/avatar.png" alt=""></div>
+                    <div class="card__content">
+                        <h3>Junior front-end developer</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section class="grid grid--single">
+            <h2 class="grid__item">Projects</h2>
+            <div class="grid__item card">
+                <div class="card__image"><img src="assets/images/07-edie-homepage.png" alt=""></div>
                 <div class="card__content">
-                    <h3>Jelena Jovicic</h3>
-                    <p>Front-End Developer</p>
+                    <h3>#7 Edie Homepage</h3>
+                    <p>Subtitle</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi voluptas eveniet ipsam ut
-                        eligendi qui architecto possimus sint libero animi soluta quisquam error fugit saepe, voluptate
+                        eligendi qui architecto possimus sint libero animi soluta quisquam error fugit saepe,
+                        voluptate
                         facilis cupiditate tenetur rerum.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi voluptas eveniet ipsam ut
-                        eligendi qui architecto possimus sint libero animi soluta quisquam error fugit saepe, voluptate
-                        facilis cupiditate tenetur rerum.</p>
+                    <button class="btn">Demo</button><button class="btn btn--alt">Code</button>
                 </div>
             </div>
-        </section>
-        <section>
-            <h2>Projects</h2>
-            <div class="container--grid">
-                <div class="card">
-                    <div class="card__image"><img src="assets/images/07-edie-homepage.png" alt=""></div>
-                    <div class="card__content">
-                        <h3>#7 Edie Homepage</h3>
-                        <p>Subtitle</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi voluptas eveniet ipsam ut
-                            eligendi qui architecto possimus sint libero animi soluta quisquam error fugit saepe,
-                            voluptate
-                            facilis cupiditate tenetur rerum.</p>
-                        <button class="btn">Live</button><button class="btn">Code</button>
-                    </div>
+            <div class="grid__item card">
+                <div class="card__image"><img src="assets/images/06-checkout-page.png" alt=""></div>
+                <div class="card__content">
+                    <h3>#6 Checkout Page</h3>
+                    <p>Subtitle</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi voluptas eveniet ipsam ut
+                        eligendi qui architecto possimus sint libero animi soluta quisquam error fugit saepe,
+                        voluptate
+                        facilis cupiditate tenetur rerum.</p>
+                    <button class="btn">Demo</button><button class="btn btn--alt">Code</button>
                 </div>
-                <div class="card">
-                    <div class="card__image"><img src="assets/images/06-checkout-page.png" alt=""></div>
-                    <div class="card__content">
-                        <h3>#6 Checkout Page</h3>
-                        <p>Subtitle</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi voluptas eveniet ipsam ut
-                            eligendi qui architecto possimus sint libero animi soluta quisquam error fugit saepe,
-                            voluptate
-                            facilis cupiditate tenetur rerum.</p>
-                        <button class="btn">Live</button><button class="btn">Code</button>
-                    </div>
+            </div>
+            <div class="grid__item card">
+                <div class="card__image"><img src="assets/images/05-my-gallery.png" alt=""></div>
+                <div class="card__content">
+                    <h3>#5 My Gallery</h3>
+                    <p>Subtitle</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi voluptas eveniet ipsam ut
+                        eligendi qui architecto possimus sint libero animi soluta quisquam error fugit saepe,
+                        voluptate
+                        facilis cupiditate tenetur rerum.</p>
+                    <button class="btn">Demo</button><button class="btn btn--alt">Code</button>
                 </div>
-                <div class="card">
-                    <div class="card__image"><img src="assets/images/05-my-gallery.png" alt=""></div>
-                    <div class="card__content">
-                        <h3>#5 My Gallery</h3>
-                        <p>Subtitle</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi voluptas eveniet ipsam ut
-                            eligendi qui architecto possimus sint libero animi soluta quisquam error fugit saepe,
-                            voluptate
-                            facilis cupiditate tenetur rerum.</p>
-                        <button class="btn">Live</button><button class="btn">Code</button>
-                    </div>
+            </div>
+            <div class="grid__item card">
+                <div class="card__image"><img src="assets/images/04-recipe-page.png" alt=""></div>
+                <div class="card__content">
+                    <h3>#4 Recipe Page</h3>
+                    <p>Subtitle</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi voluptas eveniet ipsam ut
+                        eligendi qui architecto possimus sint libero animi soluta quisquam error fugit saepe,
+                        voluptate
+                        facilis cupiditate tenetur rerum.</p>
+                    <button class="btn">Demo</button><button class="btn btn--alt">Code</button>
                 </div>
-                <div class="card">
-                    <div class="card__image"><img src="assets/images/04-recipe-page.png" alt=""></div>
-                    <div class="card__content">
-                        <h3>#4 Recipe Page</h3>
-                        <p>Subtitle</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi voluptas eveniet ipsam ut
-                            eligendi qui architecto possimus sint libero animi soluta quisquam error fugit saepe,
-                            voluptate
-                            facilis cupiditate tenetur rerum.</p>
-                        <button class="btn">Live</button><button class="btn">Code</button>
-                    </div>
+            </div>
+            <div class="grid__item card">
+                <div class="card__image"><img src="assets/images/03-interior-consultant.png" alt=""></div>
+                <div class="card__content">
+                    <h3>#3 Interior Consultant</h3>
+                    <p>Subtitle</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi voluptas eveniet ipsam ut
+                        eligendi qui architecto possimus sint libero animi soluta quisquam error fugit saepe,
+                        voluptate
+                        facilis cupiditate tenetur rerum.</p>
+                    <button class="btn">Demo</button><button class="btn btn--alt">Code</button>
                 </div>
-                <div class="card">
-                    <div class="card__image"><img src="assets/images/03-interior-consultant.png" alt=""></div>
-                    <div class="card__content">
-                        <h3>#3 Interior Consultant</h3>
-                        <p>Subtitle</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi voluptas eveniet ipsam ut
-                            eligendi qui architecto possimus sint libero animi soluta quisquam error fugit saepe,
-                            voluptate
-                            facilis cupiditate tenetur rerum.</p>
-                        <button class="btn">Live</button><button class="btn">Code</button>
-                    </div>
+            </div>
+            <div class="grid__item card">
+                <div class="card__image"><img src="assets/images/02-my-team-page.png" alt=""></div>
+                <div class="card__content">
+                    <h3>#2 My Team Page</h3>
+                    <p>Subtitle</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi voluptas eveniet ipsam ut
+                        eligendi qui architecto possimus sint libero animi soluta quisquam error fugit saepe,
+                        voluptate
+                        facilis cupiditate tenetur rerum.</p>
+                    <button class="btn">Demo</button><button class="btn btn--alt">Code</button>
                 </div>
-                <div class="card">
-                    <div class="card__image"><img src="assets/images/02-my-team-page.png" alt=""></div>
-                    <div class="card__content">
-                        <h3>#2 My Team Page</h3>
-                        <p>Subtitle</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi voluptas eveniet ipsam ut
-                            eligendi qui architecto possimus sint libero animi soluta quisquam error fugit saepe,
-                            voluptate
-                            facilis cupiditate tenetur rerum.</p>
-                        <button class="btn">Live</button><button class="btn">Code</button>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card__image"><img src="assets/images/01-404.png" alt=""></div>
-                    <div class="card__content">
-                        <h3>#1 404 Page</h3>
-                        <p>Subtitle</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi voluptas eveniet ipsam ut
-                            eligendi qui architecto possimus sint libero animi soluta quisquam error fugit saepe,
-                            voluptate
-                            facilis cupiditate tenetur rerum.</p>
-                        <button class="btn">Live</button><button class="btn">Code</button>
-                    </div>
+            </div>
+            <div class="grid__item card">
+                <div class="card__image"><img src="assets/images/01-404.png" alt=""></div>
+                <div class="card__content">
+                    <h3>#1 404 Page</h3>
+                    <p>Subtitle</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi voluptas eveniet ipsam ut
+                        eligendi qui architecto possimus sint libero animi soluta quisquam error fugit saepe,
+                        voluptate
+                        facilis cupiditate tenetur rerum.</p>
+                    <button class="btn">Demo</button><button class="btn btn--alt">Code</button>
                 </div>
             </div>
 
+
         </section>
-        <section>
-            <h2>Skills</h2>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </section>
-        <section>
-            <h2>Blog</h2>
-            <div class="container--grid">
-                <div class="card">
-                    <div class="card__image"></div>
-                    <div class="card__content"></div>
-                </div>
-                <div class="card">
-                    <div class="card__image"></div>
-                    <div class="card__content"></div>
-                </div>
-                <div class="card">
-                    <div class="card__image"></div>
-                    <div class="card__content"></div>
-                </div>
-            </div>
-        </section>
-        <section>
-            <h2>Experience</h2>
-        </section>
-        <section>
-            <h2>Hobbies</h2>
-            <div class="container--grid">
-                <div class="card">
-                    <div class="card__image"></div>
-                    <div class="card__content"></div>
-                </div>
-                <div class="card">
-                    <div class="card__image"></div>
-                    <div class="card__content"></div>
-                </div>
-                <div class="card">
-                    <div class="card__image"></div>
-                    <div class="card__content"></div>
-                </div>
-            </div>
-        </section>
+
+
+
     </main>
 
     <footer>
-        <p>Coded by <a href="https://github.com/je-jo">Jelena Jovicic</a>, 2022.</p>
+        <p>created by <a href="https://github.com/je-jo" target="_blank">Jelena Jovicic</a> - <a
+                href="https://devchallenges.io/" target="_blank">devChallenges.io</a></p>
     </footer>
 </body>
 

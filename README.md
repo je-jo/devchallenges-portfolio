@@ -42,11 +42,11 @@ A final project for devChallenges.io. Not actual portfolio.
 
 This site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/5ZnOYsSXM24JWnCsNFlt) was to build an application to complete the given user stories:
 
-- [ ] User story: I can see personal details
-- [ ] User story: I can see skills
+- [x] User story: I can see personal details
+- [x] User story: I can see skills
 - [ ] User story: I can see projects
 - [ ] User story: I can filter projects by tag
-- [ ] User story: I can see hobbies or certificates
+- [x] User story: I can see hobbies or certificates
 - [ ] User story (optional): I can see experiences
 - [ ] User story (optional): I can see blogs
 - [ ] User story (optional): I can see projects on different pages
@@ -73,7 +73,7 @@ This site was created as a submission to a [DevChallenges](https://devchallenges
 
 ### Observations
 
-...
+- Tried to make responsive page without using media queries, but there is still one media query - when the viewport gets big enough to have 3 grid columns, make certain grid items span 2 rows, but not before that. Any ideas to do this without a media query are appreciated.
 
 
 ### Useful resources

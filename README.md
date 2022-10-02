@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://.......">
+    <a href="https://je-jo-devchallenges-portfolio.netlify.app/">
       Demo
     </a>
     <span> | </span>
@@ -58,7 +58,7 @@ This site was created as a submission to a [DevChallenges](https://devchallenges
 ### Links
 
 - [Repo](https://github.com/je-jo/devchallenges-portfolio)
-- [Live Site](https://........)
+- [Live Site](https://je-jo-devchallenges-portfolio.netlify.app/)
 
 ## My process
 
@@ -74,6 +74,8 @@ This site was created as a submission to a [DevChallenges](https://devchallenges
 ### Observations
 
 - Tried to make responsive page without using media queries, but there is still one media query - when the viewport gets big enough to have 3 grid columns, make certain grid items span 2 rows, but not before that. Any ideas to do this without a media query are appreciated.
+
+- First time using Netlify for deployment. It's nice but sticking with github pages for now.
 
 
 ### Useful resources

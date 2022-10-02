@@ -25,6 +25,7 @@ html {
 img {
     display: block;
     max-width: 100%;
+    object-fit: cover;
     border-radius: var(--border-radius);
     outline: 1px solid green;
 }
@@ -56,8 +57,8 @@ select {
 
 :root {
     --clr-dark: #222;
-    --clr-primary: #2f80ed;
-    --clr-primary-strong: #f13422;
+    --clr-primary: #2e9cdc;
+    --clr-primary-strong: #2f80ed;
     --fs-h1: 4.2rem;
     --fs-h2: 3.15rem;
     --fs-h3: 2rem;
@@ -129,7 +130,6 @@ footer {
     padding: 0.5em;
     place-self: center;
     text-align: center;
-    /* border-top: 1px solid currentColor; */
 }
 
 /*utilities*/
@@ -206,11 +206,12 @@ footer {
 }
 
 .card>* {
+    flex-grow: 1;
     flex-basis: var(--min-col-width);
 }
 
 .card__content {
-    flex-grow: 1;
+    flex-grow: 2;
 }
 
 .card-nowrap {
@@ -268,6 +269,10 @@ p {
     margin: 1em 0;
 }
 
+footer p {
+    font-size: 11px;
+}
+
 li {
     font-size: 1rem;
     line-height: 22px;
@@ -314,6 +319,12 @@ a:not(.btn):hover {
     color: var(--clr-primary-strong);
     text-decoration: underline;
     text-underline-offset: 0.2rem;
+}
+
+/*images*/
+
+.material-icons {
+    place-self: center;
 }
 
 /*buttons*/

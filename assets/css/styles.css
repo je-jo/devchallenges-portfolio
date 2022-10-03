@@ -284,7 +284,7 @@ a:not(.btn):hover {
 #blog .flex__image {
     min-height: var(--min-col-width);
     background-image: url(../../assets/images/1c7681ee5f2693494e5dafafa04ea77a.png);
-    background-size: cover; 
+    background-size: cover;
 }
 
 /*buttons*/
@@ -323,19 +323,39 @@ a:not(.btn):hover {
     color: var(--clr-white);
 }
 
-/*skill list*/
+.btn--pagination {
+    width: 3rem;
+    height: 3rem;
+    background-color: transparent;
+    color: var(--clr-gray2);
+    border-radius: calc(var(--border-radius) / 2);
+}
+
+.btn--pagination:hover {
+    background-color: var(--clr-primary-strong);
+    color: var(--clr-white);
+}
+
+/*lists*/
 
 ul {
     margin: var(--spacing-m) 0;
 }
 
 ul li {
-    list-style: none;
-    display: grid;
+    list-style-type: none;
+    /* display: grid;
     grid-template-columns: 8ch 1fr;
     gap: 1em;
-    align-items: center;
+    align-items: center; */
 }
+
+ul li::before {
+    content: "\200B";
+    /*zero width space, https://gerardkcohen.me/writing/2017/voiceover-list-style-type.html*/
+}
+
+/*skill list*/
 
 .skill-bar {
     background-color: var(--clr-gray7);
@@ -360,4 +380,12 @@ ul li {
 
 #javascript {
     width: 26%;
+}
+
+/*pagination*/
+
+#container--pagination {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1em;
 }

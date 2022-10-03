@@ -84,6 +84,7 @@ This site was created as a submission to a [DevChallenges](https://devchallenges
 - [grid-column-end](https://css-tricks.com/almanac/properties/g/grid-column-end/) - css-tricks almanac, helped with grid items placement;
 - [Pexels](https://www.pexels.com/) - Images by: ABDUL KAYUM, samer daboul, Magda Ehlers.
 - [Material Design Icons](https://google.github.io/material-design-icons/)
+- [How to Implement Pagination with Vanilla JavaScript](https://webdesign.tutsplus.com/tutorials/pagination-with-vanilla-javascript--cms-41896)
 
 ## Author
 

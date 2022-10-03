@@ -44,11 +44,11 @@ This site was created as a submission to a [DevChallenges](https://devchallenges
 
 - [x] User story: I can see personal details
 - [x] User story: I can see skills
-- [ ] User story: I can see projects
+- [x] User story: I can see projects
 - [ ] User story: I can filter projects by tag
 - [x] User story: I can see hobbies or certificates
-- [ ] User story (optional): I can see experiences
-- [ ] User story (optional): I can see blogs
+- [x] User story (optional): I can see experiences
+- [x] User story (optional): I can see blogs
 - [ ] User story (optional): I can see projects on different pages
 
 ### Screenshot
@@ -82,6 +82,8 @@ This site was created as a submission to a [DevChallenges](https://devchallenges
 
 - [My Basic Template](https://github.com/je-jo/basic-template) pretty much based on Stephanie Eckless' [HTML / Sass Jumpstart](https://github.com/5t3ph/html-sass-jumpstart) but much simpler;
 - [grid-column-end](https://css-tricks.com/almanac/properties/g/grid-column-end/) - css-tricks almanac, helped with grid items placement;
+- [Pexels](https://www.pexels.com/) - Images by: ABDUL KAYUM, samer daboul, Magda Ehlers.
+- [Material Design Icons](https://google.github.io/material-design-icons/)
 
 ## Author
 

@@ -12,9 +12,13 @@
 }
 
 :focus {
-    outline: 2px solid var(--clr-primary-strong);
+    outline: none;
+}
+
+:focus-visible {
+    outline: 2px dotted var(--clr-primary-strong);
     outline-offset: 2px;
-    transition: var(--transition);
+    transition: var(--transition); 
 }
 
 html {
@@ -334,6 +338,7 @@ a:not(.btn):hover {
 .btn--pagination:hover {
     background-color: var(--clr-primary-strong);
     color: var(--clr-white);
+    border-color: var(--clr-primary-strong);
 }
 
 /*lists*/
@@ -384,8 +389,13 @@ ul li::before {
 
 /*pagination*/
 
-#container--pagination {
+.hidden {
+    display: none;
+}
+
+#pagination-container {
     display: flex;
     justify-content: flex-end;
     gap: 1em;
 }
+

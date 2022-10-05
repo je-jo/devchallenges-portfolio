@@ -9,8 +9,7 @@ const filterButtonsContainer = document.getElementById("filters-container");
 const filterButtons = [...filterButtonsContainer.children];
 
 filterButtons.forEach(btn => {
-    btn.classList.remove("active");
-    btn.addEventListener("click", (e) => {
+    btn.addEventListener("click", (e) => {;
         listItems.forEach(item => {
             item.classList.add("hidden");
         });
@@ -23,11 +22,18 @@ filterButtons.forEach(btn => {
         if (e.target.id === "all") {
             listItems.push(...allItems);
         }
-        //e.target.classList.add("active");
+        removeActiveFilterClass();
+        btn.classList.add("active");
         handlePaginationButtons();
         setActivePage(1);
     });
 });
+
+function removeActiveFilterClass() {
+filterButtons.forEach(btn => {
+    btn.classList.remove("active")
+});
+}
 
 //pagination
 
@@ -78,6 +84,8 @@ function setActivePage(num) {
         }
     })
 };
+
+//on load
 
 window.addEventListener("load", () => {
     listItems.push(...allItems);

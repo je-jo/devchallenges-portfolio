@@ -49,7 +49,7 @@ This site was created as a submission to a [DevChallenges](https://devchallenges
 - [x] User story: I can see hobbies or certificates
 - [x] User story (optional): I can see experiences
 - [x] User story (optional): I can see blogs
-- [ ] User story (optional): I can see projects on different pages
+- [x] User story (optional): I can see projects on different pages
 
 ### Screenshot
 

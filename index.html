@@ -52,7 +52,6 @@
             </section>
             <section id="skills" class="grid__item grid__item--single">
                 <h2 class="variant1">Front End</h2>
-
                 <ul>
                     <li>HTML
                         <div class="skill-bar" title="39%">
@@ -105,7 +104,6 @@
                 <h2 class="variant3">Blog</h2>
                 <div class="grid">
                     <div class="flex">
-
                         <div class="flex__content">
                             <h3>How to organize your CSS</h3>
                             <p>In this article I tell the story about Proin eu justo sit amet lacus bibendum tincidunt.
@@ -156,23 +154,21 @@
                         </div>
                     </div>
                 </div>
-
             </section>
         </div>
         <section id="projects" class="grid grid--single">
-
             <div class="grid__item">
                 <h2>Projects</h2>
                 <p>* These are only my devChallenges projects. For more, please check out <a
                         href="https://github.com/je-jo">my github profile.</a></p>
-                <div class="flex">
-                    <button class="btn btn--alt">HTML&CSS</button>
-                    <button class="btn btn--alt">JavaScript</button>
+                <div id="filters-container" class="flex">
+                    <button id="all" class="btn btn--alt">All</button>
+                    <button id="htmlcss" class="btn btn--alt">HTML&CSS</button>
+                    <button id="js" class="btn btn--alt">JavaScript</button>
                 </div>
-
             </div>
             <ul id="paginated-list" aria-live="polite">
-                <li class="grid__item flex">
+                <li class="grid__item flex js">
                     <div class="flex__image"><img src="assets/images/07-edie-homepage.png"
                             alt="a screenshot of a homepage">
                     </div>
@@ -187,7 +183,7 @@
                         </div>
                     </div>
                 </li>
-                <li class="grid__item flex">
+                <li class="grid__item flex js">
                     <div class="flex__image"><img src="assets/images/06-checkout-page.png"
                             alt="a screenshot of a checkout page"></div>
                     <div class="flex__content">
@@ -201,7 +197,7 @@
                         </div>
                     </div>
                 </li>
-                <li class="grid__item flex">
+                <li class="grid__item flex htmlcss">
                     <div class="flex__image"><img src="assets/images/05-my-gallery.png"
                             alt="a screenshot of a gallery page"></div>
                     <div class="flex__content">
@@ -215,7 +211,7 @@
                         </div>
                     </div>
                 </li>
-                <li class="grid__item flex">
+                <li class="grid__item flex htmlcss">
                     <div class="flex__image"><img src="assets/images/04-recipe-page.png"
                             alt="a screenshot of a recipe page"></div>
                     <div class="flex__content">
@@ -228,7 +224,7 @@
                         </div>
                     </div>
                 </li>
-                <li class="grid__item flex">
+                <li class="grid__item flex js">
                     <div class="flex__image"><img src="assets/images/03-interior-consultant.png"
                             alt="a screenshot of a homepage"></div>
                     <div class="flex__content">
@@ -242,7 +238,7 @@
                         </div>
                     </div>
                 </li>
-                <li class="grid__item flex">
+                <li class="grid__item flex htmlcss">
                     <div class="flex__image"><img src="assets/images/02-my-team-page.png"
                             alt="a screenshot of a team page">
                     </div>
@@ -257,7 +253,7 @@
                         </div>
                     </div>
                 </li>
-                <li class="grid__item flex">
+                <li class="grid__item flex htmlcss">
                     <div class="flex__image"><img src="assets/images/01-404.png" alt="a screenshot of a 404 page"></div>
                     <div class="flex__content">
                         <p>#HTML&CSS only</p>
@@ -269,20 +265,10 @@
                         </div>
                     </div>
                 </li>
-
             </ul>
-            <div id="pagination-container">
- 
-            </div>
-
-
-
+            <div id="pagination-container"></div>
         </section>
-
-
-
     </main>
-
     <footer>
         <p>created by <a href="https://github.com/je-jo" target="_blank">Jelena Jovicic</a> - <a
                 href="https://devchallenges.io/" target="_blank">devChallenges.io</a></p>

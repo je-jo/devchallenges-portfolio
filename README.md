@@ -87,6 +87,7 @@ This site was created as a submission to a [DevChallenges](https://devchallenges
 - [Pexels](https://www.pexels.com/) - Images by: ABDUL KAYUM, samer daboul, Magda Ehlers.
 - [Material Design Icons](https://google.github.io/material-design-icons/)
 - [How to Implement Pagination with Vanilla JavaScript](https://webdesign.tutsplus.com/tutorials/pagination-with-vanilla-javascript--cms-41896) - beautifully written tutorial by Jemima Abu.
+- [Simple example of filtering items based on class](https://codepen.io/kvana/pen/LLJmZb);
 
 ## Author
 

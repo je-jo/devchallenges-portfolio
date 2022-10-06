@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css">
     <script src="assets/js/script.js" defer></script>
     <title>devChallenges Portfolio</title>
@@ -102,10 +102,14 @@
             </section>
             <section id="blog" class="grid__item grid__item--double">
                 <h2 class="variant3">Blog</h2>
-                <div class="grid">
-                    <div class="flex">
-                        <div class="flex__content">
-                            <h3>How to organize your CSS</h3>
+                    <div>
+                        <div class="flex">
+                            <div class="flex__content">
+                                <h3>How to organize your CSS</h3>
+                            </div>
+                            <div class="flex__image"></div>
+                        </div>
+                        <div>
                             <p>In this article I tell the story about Proin eu justo sit amet lacus bibendum tincidunt.
                                 Vivamus non volutpat nisl, a luctus mi.</p>
                             <p>Donec aliquam est dui, vel vestibulum diam
@@ -113,9 +117,8 @@
                             </p>
                             <a href="">dev.to</a>
                         </div>
-                        <div class="flex__image"></div>
                     </div>
-                </div>
+         
             </section>
             <section id="experience" class="grid__item grid__item--double">
                 <h2 class="variant2">Experiences</h2>
@@ -162,9 +165,9 @@
                 <p>* These are only my devChallenges projects. For more, please check out <a
                         href="https://github.com/je-jo">my github profile.</a></p>
                 <div id="filters-container" class="flex">
-                    <button id="all" class="btn btn--pagination active">All</button>
-                    <button id="htmlcss" class="btn btn--pagination">HTML&CSS</button>
-                    <button id="js" class="btn btn--pagination">JavaScript</button>
+                    <button id="all" class="btn btn--filter active">All</button>
+                    <button id="htmlcss" class="btn btn--filter">HTML&CSS</button>
+                    <button id="js" class="btn btn--filter">JavaScript</button>
                 </div>
             </div>
             <ul id="paginated-list" aria-live="polite">

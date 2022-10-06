@@ -45,7 +45,7 @@ This site was created as a submission to a [DevChallenges](https://devchallenges
 - [x] User story: I can see personal details
 - [x] User story: I can see skills
 - [x] User story: I can see projects
-- [ ] User story: I can filter projects by tag
+- [x] User story: I can filter projects by tag
 - [x] User story: I can see hobbies or certificates
 - [x] User story (optional): I can see experiences
 - [x] User story (optional): I can see blogs
@@ -73,6 +73,8 @@ This site was created as a submission to a [DevChallenges](https://devchallenges
 
 ### Observations
 
+- First time making pagination and filtering. It was easy, thanks to the wonderful pagination tutorial linked below, and it was fun trying to make both pagination and filtering work together, without breaking each other functionality.
+
 - Tried to make responsive page without using media queries, but there is still one media query - when the viewport gets big enough to have 3 grid columns, make certain grid items span 2 rows, but not before that. Any ideas to do this without a media query are appreciated.
 
 - First time using Netlify for deployment. It's nice but sticking with github pages for now.
@@ -84,7 +86,7 @@ This site was created as a submission to a [DevChallenges](https://devchallenges
 - [grid-column-end](https://css-tricks.com/almanac/properties/g/grid-column-end/) - css-tricks almanac, helped with grid items placement;
 - [Pexels](https://www.pexels.com/) - Images by: ABDUL KAYUM, samer daboul, Magda Ehlers.
 - [Material Design Icons](https://google.github.io/material-design-icons/)
-- [How to Implement Pagination with Vanilla JavaScript](https://webdesign.tutsplus.com/tutorials/pagination-with-vanilla-javascript--cms-41896)
+- [How to Implement Pagination with Vanilla JavaScript](https://webdesign.tutsplus.com/tutorials/pagination-with-vanilla-javascript--cms-41896) - beautifully written tutorial by Jemima Abu.
 
 ## Author
 

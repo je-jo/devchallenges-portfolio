@@ -289,8 +289,10 @@ a:not(.btn):hover {
 }
 
 #blog .flex__image {
-    min-height: var(--min-col-width);
-    background-image: url(../../assets/images/1c7681ee5f2693494e5dafafa04ea77a.png);
+    flex-grow: 4;
+    min-height: 320px;
+    /* background-image: url(../../assets/images/1c7681ee5f2693494e5dafafa04ea77a.png); */
+    background-image: url(../../assets/images/1c7681ee5f2693494e5dafafa04ea77a.avif);
     background-size: cover;
 }
 
@@ -333,16 +335,29 @@ a:not(.btn):hover {
 .btn--pagination {
     width: 3rem;
     height: 3rem;
-    background-color: transparent;
-    color: var(--clr-gray2);
     border-radius: calc(var(--border-radius) / 2);
 }
 
-.btn--pagination:hover {
-    background-color: var(--clr-white);
+.btn--filter {
+    font-size: var(--font-size-s);
+    min-height: 3em;
+    border-radius: var(--border-radius);
 }
 
-.btn--pagination.active {
+.btn--pagination,
+.btn--filter {
+    background-color: transparent;
+    color: var(--clr-gray2);
+}
+
+.btn--pagination:hover,
+.btn--filter:hover {
+    background-color: var(--clr-white);
+    color: var(--clr-primary-strong);
+}
+
+.btn--pagination.active,
+.btn--filter.active {
     background-color: var(--clr-primary-strong);
     color: var(--clr-white);
     border-color: var(--clr-primary-strong);
@@ -390,7 +405,7 @@ ul li::before {
     width: 26%;
 }
 
-/*pagination*/
+/*pagination and filters*/
 
 .hidden {
     display: none;
@@ -400,12 +415,6 @@ ul li::before {
     display: flex;
     justify-content: flex-end;
     gap: 1em;
-}
-
-/*filters*/
-
-#filters-container {
-    /* background-color: salmon; */
 }
 
 
